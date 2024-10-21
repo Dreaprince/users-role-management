@@ -1,0 +1,50 @@
+// {
+//   "compilerOptions": {
+//     "module": "commonjs",
+//     "declaration": true,
+//     "removeComments": true,
+//     "emitDecoratorMetadata": true,
+//     "experimentalDecorators": true,
+//     "allowSyntheticDefaultImports": true,
+//     "target": "ES2021",
+//     "sourceMap": true,
+//     "outDir": "./dist",
+//     "baseUrl": "./",
+//     "incremental": true,
+//     "skipLibCheck": true,
+//     "strictNullChecks": false,
+//     "noImplicitAny": false,
+//     "strictBindCallApply": false,
+//     "forceConsistentCasingInFileNames": false,
+//     "noFallthroughCasesInSwitch": false
+//   },
+//   "include": ["src/**/*.ts", "prisma/**/*.prisma"],  // Allow including prisma files
+//   "exclude": ["node_modules"]  // Exclude only node_modules
+// }
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true, 
+    "removeComments": true, 
+    "emitDecoratorMetadata": true, 
+    "experimentalDecorators": true, 
+    "allowSyntheticDefaultImports": true, 
+    "target": "ES2021",
+    "sourceMap": true, 
+    "outDir": "./dist", 
+    "baseUrl": "./", 
+    "incremental": true, 
+    "skipLibCheck": true, 
+    "strictNullChecks": false, 
+    "noImplicitAny": false, 
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false, 
+    "noFallthroughCasesInSwitch": false 
+  },
+  "include": [
+    "src/**/*.ts", 
+    "prisma/**/*.prisma" 
+  ],
+  "exclude": ["node_modules"], 
+  "compileOnSave": false 
+}
