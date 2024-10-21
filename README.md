@@ -28,7 +28,7 @@ This API allows for the management of users and their associated roles within th
 
 - **Backend Framework:** NestJS (TypeScript)
 - **ORM:** Prisma
-- **Database:** SQL (e.g., PostgreSQL, MySQL)
+- **Database:** SQL (PostgreSQL)
 - **Authentication:** JWT (JSON Web Tokens)
 
 ## API Endpoints
